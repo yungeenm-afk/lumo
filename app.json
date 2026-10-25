@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "LUMO",
+    "slug": "LUMO",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/lumo-app-icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ynmadeityy.lumo",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F3F6F9",
+        "foregroundImage": "./assets/lumo-android-foreground.png",
+        "backgroundImage": "./assets/lumo-android-background.png",
+        "monochromeImage": "./assets/lumo-android-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "8f70a04d-8a40-43b9-8667-83ee7ab5945b"
+      }
+    },
+    "owner": "ynmadeityy"
+  }
+}
